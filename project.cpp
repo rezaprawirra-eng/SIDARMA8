@@ -10,7 +10,7 @@ struct Mahasiswa {
     string nilai;
 };
 
-// Fungsi untuk menampilkan data mahasiswa
+
 void tampilData(Mahasiswa mhs[], int n) {
     cout << "\n=== DATA MAHASISWA ===\n";
     for (int i = 0; i < n; i++) {
