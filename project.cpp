@@ -21,7 +21,7 @@ void tampilData(Mahasiswa mhs[], int n) {
     }
 }
 
-// Fungsi untuk mengurutkan data berdasarkan nama
+
 void urutNama(Mahasiswa mhs[], int n) {
     sort(mhs, mhs + n, [](Mahasiswa a, Mahasiswa b) {
         return a.nama < b.nama;
